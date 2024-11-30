@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Digital_archive.Controllers
+namespace Digital_Archive.Controllers
 {
     [ApiController]
     [Route("[controller]")]

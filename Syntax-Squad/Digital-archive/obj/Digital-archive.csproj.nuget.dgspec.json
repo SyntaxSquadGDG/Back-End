@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-archive\\Digital-archive.csproj": {}
+    "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.csproj": {}
   },
   "projects": {
-    "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-archive\\Digital-archive.csproj": {
+    "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-archive\\Digital-archive.csproj",
-        "projectName": "Digital-archive",
-        "projectPath": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-archive\\Digital-archive.csproj",
+        "projectUniqueName": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.csproj",
+        "projectName": "Digital-Archive",
+        "projectPath": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.csproj",
         "packagesPath": "C:\\Users\\TECHNICIAN\\.nuget\\packages\\",
-        "outputPath": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-archive\\obj\\",
+        "outputPath": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,10 +49,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.19.6, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

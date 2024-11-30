@@ -1,5 +1,5 @@
 
-namespace Digital_archive
+namespace Digital_Archive
 {
     public class Program
     {
