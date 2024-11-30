@@ -1,0 +1,6 @@
+@Digital_archive_HostAddress = http://localhost:5070
+
+GET {{Digital_archive_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
