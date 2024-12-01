@@ -26,6 +26,7 @@ namespace Digital_Archive
             builder.Services.AddScoped<PermissionService>();
             builder.Services.AddScoped<Fileservices>();
             builder.Services.AddScoped<Section>();
+            builder.Services.AddScoped<SectionService>();
 
 
 
