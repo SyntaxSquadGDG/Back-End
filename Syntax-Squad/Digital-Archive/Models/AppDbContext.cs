@@ -13,5 +13,9 @@ namespace Digital_Archive.Models
         public DbSet<Folder> Folders {  get; set; }
         public DbSet<Section> Sections { get; set; }
         public DbSet<Sfile> Sfiles { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
+
+        public DbSet<Role> Roles { get; set; }
+
     }
 }

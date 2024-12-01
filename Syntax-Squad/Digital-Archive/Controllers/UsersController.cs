@@ -33,5 +33,11 @@ namespace Digital_Archive.Controllers
             var token = await _authService.GetTokenAsync(model);
             return Ok(token);
         }
+        [HttpGet("test")]
+        public DateTime test()
+        {
+            DateTime aaa= DateTime.Now;
+            return aaa;
+        }
     }
 }

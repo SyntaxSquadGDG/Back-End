@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Digital_Archive.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241130172039_init")]
-    partial class init
+    [Migration("20241201155135_aaa")]
+    partial class aaa
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,16 +33,81 @@ namespace Digital_Archive.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("FolderId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("LastModified")
+                        .HasColumnType("timestamp with time zone");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int?>("ParentFolderId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("ParentSectionId")
+                        .HasColumnType("integer");
 
                     b.Property<double>("size")
                         .HasColumnType("double precision");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("FolderId");
+
                     b.ToTable("Folders");
+                });
+
+            modelBuilder.Entity("Digital_Archive.Models.Permission", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("CanEdit")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("CanOpen")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("CanRead")
+                        .HasColumnType("boolean");
+
+                    b.Property<int?>("FoldedId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("RoleId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("SectionId")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Permissions");
+                });
+
+            modelBuilder.Entity("Digital_Archive.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("Digital_Archive.Models.Section", b =>
@@ -53,7 +118,7 @@ namespace Digital_Archive.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("Last_Modifeid")
+                    b.Property<DateTime>("LastModified")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
@@ -83,9 +148,15 @@ namespace Digital_Archive.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int?>("FolderId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int?>("ParentFolderId")
+                        .HasColumnType("integer");
 
                     b.Property<DateTime>("UploadedAt")
                         .HasColumnType("timestamp with time zone");
@@ -93,7 +164,13 @@ namespace Digital_Archive.Migrations
                     b.Property<double>("size")
                         .HasColumnType("double precision");
 
+                    b.Property<string>("type")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("FolderId");
 
                     b.ToTable("Sfiles");
                 });
@@ -125,6 +202,27 @@ namespace Digital_Archive.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Digital_Archive.Models.Folder", b =>
+                {
+                    b.HasOne("Digital_Archive.Models.Folder", null)
+                        .WithMany("folders")
+                        .HasForeignKey("FolderId");
+                });
+
+            modelBuilder.Entity("Digital_Archive.Models.Sfile", b =>
+                {
+                    b.HasOne("Digital_Archive.Models.Folder", null)
+                        .WithMany("files")
+                        .HasForeignKey("FolderId");
+                });
+
+            modelBuilder.Entity("Digital_Archive.Models.Folder", b =>
+                {
+                    b.Navigation("files");
+
+                    b.Navigation("folders");
                 });
 #pragma warning restore 612, 618
         }

@@ -36,7 +36,7 @@ namespace Digital_Archive.Services
 
         private string GenerateJwtToken(logindto user)
         {
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("eyJhbGciOiJIUzI1NiJ9.ew0KICAic3ViIjogIjEyMzQ1Njc4OTAiLA0KICAibmFtZSI6ICJBbmlzaCBOYXRoIiwNCiAgImlhdCI6IDE1MTYyMzkwMjINCn0.Xqyax1fZ2gdevrrZ7u7UvNetQ5wHlPu8G7sOXjtYPDE"!));
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
             var credientials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
             var claims = new List<Claim>()
@@ -46,8 +46,8 @@ namespace Digital_Archive.Services
 
             var expires = DateTime.Now.AddDays(60);
             var token = new JwtSecurityToken(
-                issuer: "YourVeryStrongSecretKey12345",
-                audience: "YourVeryStrongSecretKey12345",
+                issuer: _config["Jwt:Issuer"] ,
+                audience: _config["Jwt:Issuer"],
                 claims: claims,
                 expires: expires,
                 signingCredentials: credientials

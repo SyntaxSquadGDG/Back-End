@@ -3,60 +3,140 @@
   "WorkspaceRootPath": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\services\\folderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\services\\folderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\migrations\\20241201155135_aaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\migrations\\20241201155135_aaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\services\\sectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\services\\sectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\models\\sfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\sfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153653_aaaaaaaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201153653_aaaaaaaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\models\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153357_aaaaaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201153357_aaaaaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153345_aaaaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201153345_aaaaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153231_aaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201153231_aaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201152802_lastt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201152802_lastt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\controllers\\folderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\controllers\\folderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201150155_lst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201150155_lst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201141838_A.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201141838_A.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\controllers\\sectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\controllers\\sectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\dto\\folderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\dto\\folderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\dto\\pathdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\dto\\pathdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201112033_aaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201112033_aaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201093512_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201093512_correction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201092642_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Digital-Archive\\Migrations\\20241201092642_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\digital-archive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\digital-archive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\digital-archive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\sfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\sfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\migrations\\20241130172039_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\migrations\\20241130172039_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\digital-archive.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\digital-archive\\digital-archive.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\digital-archive.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|d:\\my codes hole\\gdg-backend\\back-end\\syntax-squad\\digital-archive\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24EF2CA7-B5C4-488C-8DA7-0ABE8CC52E43}|Digital-Archive\\Digital-Archive.csproj|solutionrelative:digital-archive\\models\\section.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 289,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,86 +169,328 @@
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Digital-Archive\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAvwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:34:56.431Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Digital-Archive\\Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "DocumentIndex": 2,
+              "Title": "20241201155135_aaa.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201155135_aaa.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201155135_aaa.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201155135_aaa.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201155135_aaa.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAQwHwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:54:54.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Models\\User.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\User.cs",
-              "RelativeToolTip": "Digital-Archive\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:28:07.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20241130172039_init.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241130172039_init.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241130172039_init.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241130172039_init.cs",
-              "RelativeToolTip": "Digital-Archive\\Migrations\\20241130172039_init.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAA1wFEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:20:39.986Z",
+              "WhenOpened": "2024-12-01T15:51:35.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SectionService.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\SectionService.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Services\\SectionService.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\SectionService.cs",
+              "RelativeToolTip": "Digital-Archive\\Services\\SectionService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:02:06.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\PermissionService.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Services\\PermissionService.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\PermissionService.cs",
+              "RelativeToolTip": "Digital-Archive\\Services\\PermissionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:08:00.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Program.cs",
               "RelativeDocumentMoniker": "Digital-Archive\\Program.cs",
               "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Program.cs",
               "RelativeToolTip": "Digital-Archive\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwBgAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAArwAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T16:55:50.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Section.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Section.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Section.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Section.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\Section.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:30:58.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sfile.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Sfile.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Sfile.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Sfile.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\Sfile.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:49:03.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\User.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\User.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:28:07.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FolderService.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\FolderService.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Services\\FolderService.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\FolderService.cs",
+              "RelativeToolTip": "Digital-Archive\\Services\\FolderService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwC4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:02:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\appsettings.json",
+              "RelativeDocumentMoniker": "Digital-Archive\\appsettings.json",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\appsettings.json",
+              "RelativeToolTip": "Digital-Archive\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T16:58:38.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Permission.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Permission.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\Permission.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:24:42.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:54:54.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241201153653_aaaaaaaaaa.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153653_aaaaaaaaaa.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201153653_aaaaaaaaaa.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153653_aaaaaaaaaa.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201153653_aaaaaaaaaa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:36:53.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Folder.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Folder.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Folder.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Folder.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\Folder.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:34:19.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Role.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Role.cs",
+              "RelativeToolTip": "Digital-Archive\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:16:42.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Digital-Archive\\Services\\AuthService.cs",
               "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\AuthService.cs",
               "RelativeToolTip": "Digital-Archive\\Services\\AuthService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAANAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T17:47:22.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
+              "Title": "20241201153357_aaaaaaaa.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153357_aaaaaaaa.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201153357_aaaaaaaa.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153357_aaaaaaaa.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201153357_aaaaaaaa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:33:57.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241201153345_aaaaaaa.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153345_aaaaaaa.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201153345_aaaaaaa.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153345_aaaaaaa.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201153345_aaaaaaa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:33:45.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241201153231_aaaa.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153231_aaaa.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201153231_aaaa.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201153231_aaaa.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201153231_aaaa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:32:32.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241201152802_lastt.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201152802_lastt.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201152802_lastt.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201152802_lastt.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201152802_lastt.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:28:02.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Controllers\\FilesController.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "Digital-Archive\\Controllers\\FilesController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAlwBgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:04:37.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FoldersController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\FoldersController.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Controllers\\FoldersController.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\FoldersController.cs",
+              "RelativeToolTip": "Digital-Archive\\Controllers\\FoldersController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwB4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:04:21.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Fileservices.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\Fileservices.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Services\\Fileservices.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Services\\Fileservices.cs",
+              "RelativeToolTip": "Digital-Archive\\Services\\Fileservices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:02:49.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20241201150155_lst.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201150155_lst.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201150155_lst.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201150155_lst.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201150155_lst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:01:55.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Digital-Archive\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:34:56.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "logindto.cs",
               "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Dto\\logindto.cs",
               "RelativeDocumentMoniker": "Digital-Archive\\Dto\\logindto.cs",
@@ -180,17 +502,100 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241201141838_A.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201141838_A.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201141838_A.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201141838_A.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201141838_A.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:18:38.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Digital-Archive",
+              "DocumentIndex": 25,
+              "Title": "SectionsController.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\SectionsController.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Controllers\\SectionsController.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Controllers\\SectionsController.cs",
+              "RelativeToolTip": "Digital-Archive\\Controllers\\SectionsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAhwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T10:05:28.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FolderDto.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Dto\\FolderDto.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Dto\\FolderDto.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Dto\\FolderDto.cs",
+              "RelativeToolTip": "Digital-Archive\\Dto\\FolderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:55:34.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PathDto.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Dto\\PathDto.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Dto\\PathDto.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Dto\\PathDto.cs",
+              "RelativeToolTip": "Digital-Archive\\Dto\\PathDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:44:05.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241201112033_aaa.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201112033_aaa.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201112033_aaa.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201112033_aaa.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201112033_aaa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:20:34.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241201093512_correction.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201093512_correction.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201093512_correction.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201093512_correction.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201093512_correction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:35:12.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241201092642_updatemodels.cs",
+              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201092642_updatemodels.cs",
+              "RelativeDocumentMoniker": "Digital-Archive\\Migrations\\20241201092642_updatemodels.cs",
+              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Migrations\\20241201092642_updatemodels.cs",
+              "RelativeToolTip": "Digital-Archive\\Migrations\\20241201092642_updatemodels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:26:43.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Digital-Archive.csproj",
               "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.csproj",
               "RelativeDocumentMoniker": "Digital-Archive\\Digital-Archive.csproj",
               "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.csproj",
@@ -202,46 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\appsettings.json",
-              "RelativeDocumentMoniker": "Digital-Archive\\appsettings.json",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\appsettings.json",
-              "RelativeToolTip": "Digital-Archive\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T16:58:38.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Sfile.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Sfile.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Sfile.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Sfile.cs",
-              "RelativeToolTip": "Digital-Archive\\Models\\Sfile.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:49:03.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\WeatherForecast.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\WeatherForecast.cs",
-              "RelativeToolTip": "Digital-Archive\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:15:38.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 33,
               "Title": "Digital-Archive.http",
               "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Digital-Archive.http",
               "RelativeDocumentMoniker": "Digital-Archive\\Digital-Archive.http",
@@ -250,32 +616,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-11-30T16:55:50.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Folder.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Folder.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Folder.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Folder.cs",
-              "RelativeToolTip": "Digital-Archive\\Models\\Folder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:34:19.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Section.cs",
-              "DocumentMoniker": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Section.cs",
-              "RelativeDocumentMoniker": "Digital-Archive\\Models\\Section.cs",
-              "ToolTip": "D:\\my codes hole\\gdg-backend\\Back-End\\Syntax-Squad\\Digital-Archive\\Models\\Section.cs",
-              "RelativeToolTip": "Digital-Archive\\Models\\Section.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:30:58.727Z",
               "EditorCaption": ""
             }
           ]

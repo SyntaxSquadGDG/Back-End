@@ -1,4 +1,6 @@
-﻿namespace Digital_Archive.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Digital_Archive.Models
 {
     public class User
     {

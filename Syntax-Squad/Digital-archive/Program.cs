@@ -22,6 +22,12 @@ namespace Digital_Archive
             });
 
             builder.Services.AddScoped<AuthService>();
+            builder.Services.AddScoped<FolderService>();
+            builder.Services.AddScoped<PermissionService>();
+            builder.Services.AddScoped<Fileservices>();
+            builder.Services.AddScoped<Section>();
+
+
 
 
             // Add services to the container.
