@@ -1,4 +1,10 @@
 
+using Digital_Archive.Models;
+using Npgsql;
+using static Digital_Archive.Models.AppDbContext;
+using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Digital_Archive.Services;
 namespace Digital_Archive
 {
     public class Program
@@ -6,6 +12,17 @@ namespace Digital_Archive
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+
+
+            var connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
+            builder.Services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseNpgsql(connectionString);
+            });
+
+            builder.Services.AddScoped<AuthService>();
+
 
             // Add services to the container.
 
