@@ -14,7 +14,11 @@ namespace Digital_Archive.Services
             int ans = _context.Permissions.Count(x => x.FoldedId == id && x.CanRead == true);
             return ans;
         }
+        public int EmployPerSection(int id)
+        {
+            int ans = _context.Permissions.Count(x => x.SectionId == id && x.CanRead == true);
+            return ans;
+        }
 
-         
     }
 }

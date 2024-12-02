@@ -4,6 +4,8 @@ using Npgsql;
 using static Digital_Archive.Models.AppDbContext;
 using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Microsoft.Data.SqlClient;
+using Microsoft.Data.Sql;
 using Digital_Archive.Services;
 namespace Digital_Archive
 {
@@ -18,8 +20,10 @@ namespace Digital_Archive
             var connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseNpgsql(connectionString);
+                //options.UseNpgsql(connectionString);
+                options.UseSqlServer(connectionString);
             });
+
 
             builder.Services.AddScoped<AuthService>();
             builder.Services.AddScoped<FolderService>();
@@ -30,6 +34,17 @@ namespace Digital_Archive
 
 
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin", builder =>
+                {
+                    builder.WithOrigins("http://localhost:3000")
+                           .AllowAnyHeader()
+                           .AllowAnyMethod()
+                           .SetIsOriginAllowed(origin => true) // Allow requests from any origin
+                           .AllowCredentials();
+                });
+            });
 
             // Add services to the container.
 

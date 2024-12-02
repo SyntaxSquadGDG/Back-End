@@ -27,7 +27,7 @@ namespace Digital_Archive.Services
                     Name = fold.Name,
                     size = fold.size,
                     LastModified = fold.LastModified,
-                    NumberOfEmloyees = _PermissionService.EmployPerFolder(fold.Id),
+                    NumberOfEmployees = _PermissionService.EmployPerFolder(fold.Id),
                     NumberOfFiles = fold.files?.Count??0,
                     NumberOfFolders = fold.folders?.Count??0,
 
@@ -35,24 +35,28 @@ namespace Digital_Archive.Services
             }
             return ans;
         }
-        public async Task<IEnumerable<Folder>> ByIdasync(int id)
+        public async Task<Folder> ByIdasync(int id)
         {
-            var folder =  _context.Folders.Where(x=> x.Id == id);
+            var folder = await _context.Folders.FirstAsync(x=> x.Id == id);
             return folder;  
         }
         public async Task<List<FolderDto>> ByParentIdasync(int id)
         {
             Folder folder = await _context.Folders.FirstAsync(x => x.Id == id);
             List<FolderDto> ans = new List<FolderDto>();
-            if(folder.folders != null&&folder.folders.Count()>0)
-            foreach (var fold in folder.folders) {
+            if (folder == null) return ans;
+
+            var folders = _context.Folders.Where(x => x.ParentFolderId == id).ToList();
+
+            if (folders != null&& folders.Count()>0)
+            foreach (var fold in folders) {
                 ans.Add(new FolderDto
                 {
                     Id = fold.Id,
                     Name = fold.Name,
                     size = fold.size,
                     LastModified = fold.LastModified,
-                    NumberOfEmloyees= _PermissionService.EmployPerFolder(fold.Id),
+                    NumberOfEmployees= _PermissionService.EmployPerFolder(fold.Id),
                     NumberOfFiles = fold.files?.Count ?? 0,
                     NumberOfFolders = fold.folders?.Count ?? 0,
 
@@ -62,8 +66,9 @@ namespace Digital_Archive.Services
         }
         public async Task<List<Sfile>> GetAllFiles(int id)
         {
-            Folder folder = await _context.Folders.FirstOrDefaultAsync(x => x.Id == id);
-            return folder.files;
+            var files = _context.Sfiles.Where(x => x.Id == id).ToList();
+            if(files == null)return new List<Sfile>();
+            return files;
         }
         public async Task<List<PathDto>> BuildPathsync(int id)
         {
@@ -77,7 +82,7 @@ namespace Digital_Archive.Services
                     Name = folder.Name,
                     Id = folder.Id
                 });
-                folder = (await ByIdasync(folder.ParentFolderId ?? 1)).First();
+                folder = (await ByIdasync(folder.ParentFolderId ?? 1));
             }
             ans.Add(new PathDto
             {
@@ -88,8 +93,8 @@ namespace Digital_Archive.Services
             ans.Add(new PathDto
             {
                 type = "section",
-                Name = (await ByIdasync(folder.ParentSectionId ?? 1)).First().Name,
-                Id = (await ByIdasync(folder.ParentSectionId ?? 1)).First().Id
+                Name = (await ByIdasync(folder.ParentSectionId ?? 1)).Name,
+                Id = (await ByIdasync(folder.ParentSectionId ?? 1)).Id
             });
             return ans;
         }

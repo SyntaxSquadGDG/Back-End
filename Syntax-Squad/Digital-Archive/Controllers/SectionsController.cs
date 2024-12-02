@@ -2,6 +2,7 @@
 using Digital_Archive.Models;
 using Digital_Archive.Services;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Digital_Archive.Controllers
@@ -21,6 +22,25 @@ namespace Digital_Archive.Controllers
             _SectionService = SectionService;
             _PermissionService = permissionService;
         }
+        [HttpPost("newsection")]
+        public  async Task<IActionResult> newsection(string name)
+        {
+            try
+            {
+                Section section = new Section
+                {
+                    Name = name,
+                    LastModified = DateTime.Now,
+                };
+                _context.Sections.Add(section);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
 
         [HttpGet("getallsections")]
         public async Task<IActionResult> GetAllSections()
@@ -28,7 +48,19 @@ namespace Digital_Archive.Controllers
             var sections = await _SectionService.getallassync();
             return Ok(sections);
         }
-
+        [HttpGet("FoldersByParentId")]
+        public async Task<List<FolderDto>> FoldersByParentId(int id)
+        {
+            var folders = await _SectionService.ByParentIdasync(id);
+            return folders;
+        }
+        [HttpGet("SectioNameById")]
+        public async Task<IActionResult> SectioNameById(int id)
+        {
+            var name = await _SectionService.NameById(id);
+            if (name == null) return BadRequest();
+            return Ok(new { name = name });
+        }
         [HttpGet("path")]
         public async Task<List<PathDto>> Path(int id)
         {

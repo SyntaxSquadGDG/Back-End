@@ -21,6 +21,15 @@ namespace Digital_Archive.Controllers
             _FolderService = folderService;
             _PermissionService = permissionService;
         }
+        [HttpGet("SectionNameForFolder")]
+        public async Task<IActionResult> SectionNameForFolder(int id)
+        {
+            var folder = await _FolderService.ByIdasync(id);
+            if (folder == null||folder.ParentSectionId==null)return NotFound();
+            var section = _context.Sections.First(x => x.Id == folder.ParentSectionId);
+            if (section == null) return NotFound();
+            return Ok(new { name = section.Name });
+        }
         [HttpGet("allfoldrs")]
         public async Task<IActionResult> AllFoldrs()
         {
@@ -46,6 +55,27 @@ namespace Digital_Archive.Controllers
             var path = await _FolderService.BuildPathsync(id);
             return path;
         }
-       
+        [HttpPost("newfolder")]
+        public async Task<IActionResult> NewFolder(string name,int? FolderParentId , int? SectionParentId)
+        {
+            if ((FolderParentId != null && SectionParentId != null) || (FolderParentId == null && SectionParentId == null)) return BadRequest();
+            try
+            {
+                Folder folder = new Folder
+                {
+                    Name = name,
+                    LastModified = DateTime.Now,
+                    ParentFolderId = FolderParentId,
+                    ParentSectionId = SectionParentId,
+                };
+                _context.Folders.Add(folder);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
     }
 }
