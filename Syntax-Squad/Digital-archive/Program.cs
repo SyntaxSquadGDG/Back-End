@@ -1,12 +1,9 @@
-
 using Digital_Archive.Models;
-using Npgsql;
-using static Digital_Archive.Models.AppDbContext;
-using Microsoft.EntityFrameworkCore;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
-using Microsoft.Data.SqlClient;
-using Microsoft.Data.Sql;
 using Digital_Archive.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Http.Features;
+
 namespace Digital_Archive
 {
     public class Program
@@ -15,47 +12,40 @@ namespace Digital_Archive
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
-
             var connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                //options.UseNpgsql(connectionString);
-                options.UseSqlServer(connectionString);
+                options.UseSqlServer(connectionString); 
             });
-
 
             builder.Services.AddScoped<AuthService>();
             builder.Services.AddScoped<FolderService>();
             builder.Services.AddScoped<PermissionService>();
             builder.Services.AddScoped<Fileservices>();
-            builder.Services.AddScoped<Section>();
             builder.Services.AddScoped<SectionService>();
 
-
+            builder.Services.Configure<FormOptions>(options =>
+            {
+                options.MultipartBodyLengthLimit = 1048576000; // 100 MB limit, adjust as needed
+            });
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigin", builder =>
+                options.AddPolicy("AllowSpecificOrigin", policy =>
                 {
-                    builder.WithOrigins("http://localhost:3000")
-                           .AllowAnyHeader()
-                           .AllowAnyMethod()
-                           .SetIsOriginAllowed(origin => true) // Allow requests from any origin
-                           .AllowCredentials();
+                    policy.WithOrigins("http://localhost:3000") // Allow requests from your frontend
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials();
                 });
             });
 
-            // Add services to the container.
-
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -64,8 +54,9 @@ namespace Digital_Archive
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            app.UseCors("AllowSpecificOrigin");
 
+            app.UseAuthorization();
 
             app.MapControllers();
 

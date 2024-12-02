@@ -21,12 +21,50 @@ namespace Digital_Archive.Controllers
             _Fileservices = fileservices;
             _PermissionService = permissionService;
         }
+        [HttpPost("filebyfid")]
+        public async Task<IActionResult> filebyfid(int id ,[FromForm] List<FormFile> model)
+        {
+            try
+            {
+                foreach (var file in model)
+                {
 
-        //[HttpGet("path")]
-        //public async Task<List<PathDto>> Path(int id)
-        //{
-        //    var path = await _Fileservices.BuildPathsync(id);
-        //    return path;
-        //}
+                    Sfile result = new Sfile
+                    {
+                        Name = Path.GetFileName(file.FileName),
+                        UploadedAt = DateTime.Now,
+                        type = Path.GetExtension(file.FileName),
+                        size = file.Length / (1024.0 * 1024.0),
+                        ParentFolderId = id,
+                    };
+                    _context.Sfiles.Add(result);
+                    _context.SaveChanges();
+                }
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new {aa= "from sohil" });
+            }
+        }
+        [HttpPost("test")]
+        public async Task<IActionResult> test([FromForm] FormFile model)
+        {
+           return Ok(model);
+        }
+        [HttpPost("filebypath")]
+        public async Task<IActionResult> filebypath(int id ,[FromForm] FormFile model)
+        {
+            try
+            {
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+
     }
 }

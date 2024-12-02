@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Digital-Archive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5930391899461793ee5fcca65f0f4bd0e780e90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e50901c3e2c71c5388f27d866b59751e8b16c3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Digital-Archive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Digital-Archive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
