@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http.Features;
 
 namespace Digital_Archive
 {
+    
     public class Program
     {
         public static void Main(string[] args)
@@ -15,7 +16,7 @@ namespace Digital_Archive
             var connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"];
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(connectionString); 
+                options.UseSqlServer(connectionString);
             });
 
             builder.Services.AddScoped<AuthService>();
@@ -23,6 +24,7 @@ namespace Digital_Archive
             builder.Services.AddScoped<PermissionService>();
             builder.Services.AddScoped<Fileservices>();
             builder.Services.AddScoped<SectionService>();
+            builder.Services.AddScoped<AiService>();
 
             builder.Services.Configure<FormOptions>(options =>
             {
@@ -31,13 +33,13 @@ namespace Digital_Archive
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigin", policy =>
-                {
-                    policy.WithOrigins("http://localhost:3000") // Allow requests from your frontend
-                          .AllowAnyHeader()
-                          .AllowAnyMethod()
-                          .AllowCredentials();
-                });
+                options.AddPolicy(name: "AllowAllOrigins",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
             });
 
             builder.Services.AddControllers();
@@ -54,7 +56,7 @@ namespace Digital_Archive
 
             app.UseHttpsRedirection();
 
-            app.UseCors("AllowSpecificOrigin");
+            app.UseCors("AllowAllOrigins");
 
             app.UseAuthorization();
 

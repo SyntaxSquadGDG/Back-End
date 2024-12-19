@@ -12,6 +12,8 @@ namespace Digital_Archive.Models
 
         public string Blob_Token { get; set; }
 
+        public string Ocr {  get; set; }
+
         public int? ParentFolderId{ get; set; }
 
     }

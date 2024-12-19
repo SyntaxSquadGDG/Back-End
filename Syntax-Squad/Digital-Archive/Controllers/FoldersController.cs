@@ -3,6 +3,7 @@ using Digital_Archive.Models;
 using Digital_Archive.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Digital_Archive.Controllers
 {
@@ -30,6 +31,22 @@ namespace Digital_Archive.Controllers
             if (section == null) return NotFound();
             return Ok(new { name = section.Name });
         }
+        [HttpDelete("deletefolderbyid")]
+        public async Task<IActionResult> deletefolderbyid(int id)
+        {
+            try
+            {
+                var folder = _context.Folders.Find(id);
+                _FolderService.delete(folder);
+                _context.SaveChanges();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+
+        }
         [HttpGet("allfoldrs")]
         public async Task<IActionResult> AllFoldrs()
         {
@@ -40,6 +57,10 @@ namespace Digital_Archive.Controllers
         public async Task<IActionResult> FolderById(int id)
         {
             var folder = await _FolderService.ByIdasync(id);
+            if(folder==null)
+            {
+                return NotFound();
+            }
             return Ok(folder);
         }
         [HttpGet("FoldersByParentId")]

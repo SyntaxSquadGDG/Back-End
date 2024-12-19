@@ -15,12 +15,14 @@ namespace Digital_Archive.Controllers
         private readonly IConfiguration _config;
         private readonly SectionService _SectionService;
         private readonly PermissionService _PermissionService;
-        public SectionsController(AppDbContext context, IConfiguration config, SectionService SectionService, PermissionService permissionService)
+        private readonly FolderService _FolderService;
+        public SectionsController(AppDbContext context, IConfiguration config, SectionService SectionService, PermissionService permissionService, FolderService folderService)
         {
             _config = config;
             _context = context;
             _SectionService = SectionService;
             _PermissionService = permissionService;
+            _FolderService = folderService;
         }
         [HttpPost("newsection")]
         public  async Task<IActionResult> newsection(string name)
@@ -41,7 +43,27 @@ namespace Digital_Archive.Controllers
                 return BadRequest();
             }
         }
+        [HttpDelete("deletesection")]
+        public async Task<IActionResult> deletefolderbyid(int id)
+        {
+            try
+            {
+                var folders = _context.Folders.Where(x => x.ParentSectionId == id);
+                if (folders != null) 
+                foreach (var folder in folders)
+                {
+                    _FolderService.delete(folder);
+                }
+                _context.Sections.Remove(_context.Sections.Find(id));
+                _context.SaveChanges();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
 
+        }
         [HttpGet("getallsections")]
         public async Task<IActionResult> GetAllSections()
         {

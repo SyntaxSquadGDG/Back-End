@@ -2,6 +2,7 @@
 using Digital_Archive.Dto;
 using Microsoft.EntityFrameworkCore;
 using System.Net.Sockets;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 namespace Digital_Archive.Services
 {
     public class FolderService
@@ -28,8 +29,8 @@ namespace Digital_Archive.Services
                     size = fold.size,
                     LastModified = fold.LastModified,
                     NumberOfEmployees = _PermissionService.EmployPerFolder(fold.Id),
-                    NumberOfFiles = fold.files?.Count??0,
-                    NumberOfFolders = fold.folders?.Count??0,
+                    NumberOfFiles = _context.Sfiles.Where(x => x.ParentFolderId == fold.Id).Count(),
+                    NumberOfFolders = _context.Folders.Where(x => x.ParentFolderId == fold.Id).Count(),
 
                 });
             }
@@ -37,8 +38,34 @@ namespace Digital_Archive.Services
         }
         public async Task<Folder> ByIdasync(int id)
         {
-            var folder = await _context.Folders.FirstAsync(x=> x.Id == id);
+            var folder = await _context.Folders.FindAsync(id);
+            if (folder == null)
+            {
+                return new Folder();
+            }
             return folder;  
+        }
+        public async void delete(Folder folder)
+        {
+
+            var inside = _context.Folders.Where(x => x.ParentFolderId == folder.Id).ToList();
+
+            if (inside!=null)
+                foreach(var item in inside)
+                {
+                    delete(item);
+                }
+            
+            var files = _context.Sfiles.Where(x => x.Id == folder.Id).ToList();
+            
+            if(files!=null)
+                foreach(var file in files)
+                {
+                    _context.Sfiles.Remove(file);
+                }
+
+            _context.Folders.Remove(folder);
+
         }
         public async Task<List<FolderDto>> ByParentIdasync(int id)
         {
@@ -57,8 +84,8 @@ namespace Digital_Archive.Services
                     size = fold.size,
                     LastModified = fold.LastModified,
                     NumberOfEmployees= _PermissionService.EmployPerFolder(fold.Id),
-                    NumberOfFiles = fold.files?.Count ?? 0,
-                    NumberOfFolders = fold.folders?.Count ?? 0,
+                    NumberOfFiles = _context.Sfiles.Where(x=> x.ParentFolderId== fold.Id).Count(),
+                    NumberOfFolders = _context.Folders.Where(x => x.ParentFolderId == fold.Id).Count(),
 
                 }) ;
             }
@@ -66,7 +93,7 @@ namespace Digital_Archive.Services
         }
         public async Task<List<Sfile>> GetAllFiles(int id)
         {
-            var files = _context.Sfiles.Where(x => x.Id == id).ToList();
+            var files = _context.Sfiles.Where(x => x.ParentFolderId == id).ToList();
             if(files == null)return new List<Sfile>();
             return files;
         }
@@ -90,11 +117,12 @@ namespace Digital_Archive.Services
                 Name = folder.Name,
                 Id = folder.Id
             });
+            var section = await _context.Sections.FindAsync(folder.ParentSectionId);
             ans.Add(new PathDto
             {
                 type = "section",
-                Name = (await ByIdasync(folder.ParentSectionId ?? 1)).Name,
-                Id = (await ByIdasync(folder.ParentSectionId ?? 1)).Id
+                Name = section.Name,
+                Id = section.Id
             });
             return ans;
         }

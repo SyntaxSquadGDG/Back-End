@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Digital_Archive.Migrations
 {
     /// <inheritdoc />
-    public partial class aaaa : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -109,6 +109,7 @@ namespace Digital_Archive.Migrations
                     size = table.Column<double>(type: "float", nullable: false),
                     UploadedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Blob_Token = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Ocr = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ParentFolderId = table.Column<int>(type: "int", nullable: true),
                     FolderId = table.Column<int>(type: "int", nullable: true)
                 },

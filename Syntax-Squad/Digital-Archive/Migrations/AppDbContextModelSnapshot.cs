@@ -152,6 +152,10 @@ namespace Digital_Archive.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Ocr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("ParentFolderId")
                         .HasColumnType("int");
 

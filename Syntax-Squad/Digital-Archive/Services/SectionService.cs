@@ -53,8 +53,8 @@ namespace Digital_Archive.Services
                         size = fold.size,
                         LastModified = fold.LastModified,
                         NumberOfEmployees = _PermissionService.EmployPerFolder(fold.Id),
-                        NumberOfFiles = fold.files?.Count ?? 0,
-                        NumberOfFolders = fold.folders?.Count ?? 0,
+                        NumberOfFiles = _context.Sfiles.Where(x => x.ParentFolderId == fold.Id).Count(),
+                        NumberOfFolders = _context.Folders.Where(x => x.ParentFolderId == fold.Id).Count(),
 
                     });
                 }
@@ -71,6 +71,7 @@ namespace Digital_Archive.Services
                 type = "section",
                 Name = section.Name,
                 Id = section.Id
+               
             });
             return ans;
         }

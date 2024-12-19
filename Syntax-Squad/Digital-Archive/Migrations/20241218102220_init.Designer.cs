@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Digital_Archive.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241202001950_aaaa")]
-    partial class aaaa
+    [Migration("20241218102220_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -152,6 +152,10 @@ namespace Digital_Archive.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Ocr")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
